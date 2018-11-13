@@ -1,0 +1,27 @@
+问题1：
+
+NWDistance("aaccg","aacc")
+aaccg
+aac-c
+Out[32]: 0.4
+
+问题2：
+
+NWDistance("aaccg","aacgc")
+aaccg
+aacgc
+Out[36]: 0.4
+
+问题3：
+
+NWDistance("acc","ccg")
+[[0, -2, -4, -6], [-2, -1, -3, -5], [-4, 1, 2, 0], [-6, -1, 4, 2]]
+2
+4
+1
+acc
+ccg
+Out[74]: 0.6667
+
+总结：未对开头结尾进行处理
+
